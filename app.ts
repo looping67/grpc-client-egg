@@ -1,6 +1,6 @@
 import * as path from 'path'
 import * as util from 'util'
-import * as grpc from 'grpc'
+import * as grpc from '@grpc/grpc-js'
 import * as loader from '@grpc/proto-loader'
 import { promises as fs, constants } from 'fs'
 import { Application } from 'egg'
